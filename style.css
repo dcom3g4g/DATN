@@ -1,0 +1,124 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.select-dropdown-right {
+    /* Existing styles for centering (optional) */
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+  
+    /* New style for right alignment */
+    display: inline-block; /* Make it inline-block for right alignment */
+    float: right; /* Float the element to the right */
+  }
+select-dropdown{
+    display: flex; /* Enable flexbox layout for centering */
+    justify-content: right; /* Center content horizontally */
+    align-items: right;
+  }
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #f70000a0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container1 {
+    display: flex; /* Enable flexbox layout for centering */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.star-rating {
+    display: inline-block;
+    width: 50px;
+    height: 10px;
+    background-image: url('star-rating.png'); /* Replace with your star rating image */
+    background-repeat: repeat-x;
+    background-position: 0 0;
+}
+
+.star-rating.rating-5 {
+    background-position: 0 -50px;
+}
+
+.star-rating.rating-4 {
+    background-position: 0 -100px;
+}
+
+.star-rating.rating-3 {
+    background-position: 0 -150px;
+}
+
+.star-rating.rating-2 {
+    background-position: 0 -200px;
+}
+
+.star-rating.rating-1 {
+    background-position: 0 -250px;
+}
+.product-container {
+    display: flex; /* Use flexbox for side-by-side layout */
+    margin-bottom: 20px;
+}
+
+.product-image {
+    width: 200px; /* Adjust image width as needed */
+    height: 200px; /* Adjust image height as needed */
+}
+
+.product-image {
+    width: 200px; /* Adjust image width as needed */
+    height: 200px; /* Adjust image height as needed */
+}
+
+.product-info {
+    flex: 1; /* Allow product info to expand */
+    margin-left: 20px; /* Add margin to the left for spacing */
+    text-align: left; /* Align text to the left */
+}
+.star-cell img {
+    vertical-align: bottom; /* Align image to the bottom */
+    margin-top: 5px; /* Add a margin to create spacing between text and image */
+  }
