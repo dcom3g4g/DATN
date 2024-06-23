@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Đánh giá sản phẩm</h1>
+            <form action="#">
+                <input type="text" placeholder="Hãy nhập link của sản phẩm" class="search-bar">
+    
+               
+            </form>
+        </div>
+        <div id="responseData"></div>
+        <div class="container1">
+            <button id="btnFind" type="submit">Kiểm tra</button>
+        </div>
+    </header>
+    <body>
+        <h1> Danh sách đánh giá</h1>
+        <div id="tableContainer"></div>
+        <button id="addPeopleButton">Add 5 People</button>
+    
+        <script src="script.js"></script>
+    </body>
+</body>
+</html>
